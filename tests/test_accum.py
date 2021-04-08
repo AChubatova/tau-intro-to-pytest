@@ -17,6 +17,7 @@ from stuff.accum import Accumulator
 
 @pytest.fixture
 def accum():
+  print("Hi from a fixture")
   return Accumulator()
 
 
