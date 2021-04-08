@@ -55,4 +55,5 @@ products = [
 
 @pytest.mark.parametrize('a, b, product', products)
 def test_multiplication(a, b, product):
+  sleep 10
   assert a * b == product
